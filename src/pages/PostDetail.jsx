@@ -42,19 +42,19 @@ const PostDetail = ({data}) => {
             {post.youtube && post.youtube !== 'NULL' && (
                 <div className="social-media-link">
                     <img src={youtubeIcon} alt="YouTube icon" />
-                    <span> @{post.youtube}</span>
+                    <a href={`https://www.youtube.com/@${post.youtube}`}><span> @{post.youtube}</span></a>
                 </div>
             )}
             {post.twitter && post.twitter !== 'NULL' && (
                 <div className="social-media-link">
                     <img src={twitterIcon} alt="Twitter icon" />
-                    <span> @{post.twitter}</span>
+                    <a href={`https://www.twitter.com/@${post.twitter}`} target="_blank"><span> @{post.twitter}</span></a>
                 </div>
             )}
             {post.instagram && post.instagram !== 'NULL' && (
                 <div className="social-media-link">
                     <img src={instagramIcon} alt="Instagram icon" />
-                    <span> @{post.instagram}</span>
+                    <a href={`https://www.instagram.com/@${post.instagram}`}><span> @{post.instagram}</span></a>
                 </div>
             )}
         </div>
