@@ -56,3 +56,32 @@
 .moreButton:hover {
     cursor: pointer;
 }
+
+.postImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 8px;
+}
+
+.Card {
+  height: 500px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.description {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+
+
+
+

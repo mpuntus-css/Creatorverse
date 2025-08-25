@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Card from '../components/Card'
 import { supabase } from '../client'
+import { Link } from 'react-router-dom'
 
 
 const ReadPosts = (props) => {
@@ -26,15 +27,19 @@ const ReadPosts = (props) => {
                 [...posts]
                 .sort((a, b) => a.id - b.id)
                 .map((post,index) => 
-                    <Card 
-                        key={post.id}
-                        id={post.id} 
-                        title={post.title}
-                        author={post.author}
-                        description={post.description}
-                        betCount={post.betCount}
-                    />
-                ) : <h2>{'No Challenges Yet 😞'}</h2>
+                    <Link to={`/post/${post.id}`} key={post.id}>
+                        <Card 
+                            id={post.id} 
+                            name={post.name}
+                            imageLink={post.imageLink}
+                            description={post.description}
+                            youtube={post.youtube}
+                            twitter={post.twitter}
+                            instagram={post.instagram}
+                            betCount={post.betCount}
+                        />
+                    </Link>
+                ) : <h2>{'No Creators Yet 😞'}</h2>
             }
         </div>  
     )

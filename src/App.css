@@ -47,3 +47,8 @@ button {
 button:hover {
   border-color: #646cff;
 }
+
+.ReadPosts a, .ReadPosts a:visited, .ReadPosts a:active, .ReadPosts a:hover {
+    text-decoration: none !important;
+}
+
