@@ -1,16 +1,11 @@
-# WEB103 Prework - *Creatorverse*
+# *Creatorverse*
 
-Submitted by: **Mikita Puntus**
+Created by: **Mikita Puntus**
 
-About this web app: **Frontend website that supports CRUD (create, read, update, and delete) operations on content creators**
+About this web app: **Frontend website that supports CRUD (create, read, update, and delete) operations on news content creators**
 
-Time spent: **9** hours
+The following functionality is completed:
 
-## Required Features
-
-The following **required** functionality is completed:
-
-<!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
 - [X] **A logical component structure in React is used to create the frontend of the app**
 - [X] **At least five content creators are displayed on the homepage of the app**
 - [X] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
@@ -20,16 +15,8 @@ The following **required** functionality is completed:
 - [X] **The user can edit a content creator to change their name, url, or description**
 - [X] **The user can delete a content creator**
 - [X] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
-
-The following **optional** features are implemented:
-
-- [ ] Picocss is used to style HTML elements
 - [X] The content creator items are displayed in a creative format, like cards instead of a list
 - [X] An image of each content creator is shown on their content creator card
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
@@ -43,10 +30,6 @@ GIF created with LICEcap
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
